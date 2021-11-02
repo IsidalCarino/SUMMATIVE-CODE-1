@@ -41,32 +41,31 @@ int main()
         case 9:
         case 8:
         case 7:
-        {   cout << name << ", Your grade is A.\n";
+        {   cout << "Name: Mr./Ms. " << name << endl << "Your grade is A.\n";
         break;
         }
         case 6:
-        {   cout << name << ", Your grade is B\n";
+        {   cout << "Name: Mr./Ms. " << name << endl << "Your grade is B.\n";
         break;
         }
         case 5:
-        {   cout << name << ", Your grade is C\n";
+        {   cout << "Name: Mr./Ms. " << name << endl << "Your grade is C.\n";
         break;
         }
         case 4:
-        {   cout << name << ", Your grade is D\n";
+        {   cout << "Name: Mr./Ms. " << name << endl << "Your grade is D.\n";
         break;
         }
         case 3:
         case 2:
         case 1:
         case 0:
-        {   cout << name << ", Your grade is F\n";
+        {   cout << "Name: Mr./Ms. " << name << endl << "Your grade is F.\n";
         break;
         }
         default:
         {cout << "INVALID INPUT!\n";
         }
-        cout << name << marks;
         }
     }
 }
